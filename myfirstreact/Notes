@@ -1,0 +1,43 @@
+---------------------------------------
+Function Component Vs Class Component
+---------------------------------------
+simple Function
+use Function as much as possible 
+Mainalu responsible for the ui
+Stateless but 16.7.0 - New Concepts Hooks 
+
+----------------------
+Class Component 
+---------------------
+Maintain their own private data -state 
+Provide llifecycle Hooks
+
+------------
+Props
+-------------
+it use in Function Component argument 
+and it recieve attribute
+Props.attributeName
+Props are immutable 
+
+-------------
+state
+-------------
+
+state use only with in function 
+state is changable 
+
+---------------------
+Hooks
+---------------------
+
+Hooks are function that let you "hooks into" React state and lidecycle features from
+function Component
+Hooks allow you to use react without Classes it means you can use state and other 
+react features without writing a Class
+React Provide a few  built in hooks like useState,useEffect etc 
+Hooks are a new addition in React 16.8 
+
+when use Hooks 
+
+If you write a functionn Component and realize you new add some state to it.

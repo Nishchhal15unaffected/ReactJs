@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Mobile purchase</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+  <h1 align="center">Mobile purchase page</h1>
+  <br>
+  Cart<p id="cartValue">0</p>
+ 	<br><br>
+ 	Samsung Mobile 
+ 	<br>
+ 	1rs
+ 	<br>
+ 	<button id="cart"> Add to cart</button>
+ 	<button id="purchase">Purchase</button>
+ 	<br><br>
+ 	Mi Mobile
+ 	<br>
+ 	1rs
+ 	<br>
+ 	<button id="cart"> Add to cart</button>
+ 	<button id="purchase">Purchase</button>
+ 	<br><br>
+ 	I phone
+ 	<br><br>
+ 	Motorola
+ 	<br>
+ 	1rs
+ 	<br>
+ 	<button id="cart"> Add to cart</button>
+ 	<button id="purchase">Purchase</button>
+ 	<br><br>
+ 	Lava
+ 	<br>
+ 	1rs
+ 	<br>
+ 	<button id="cart"> Add to cart</button>
+ 	<button id="purchase">Purchase</button>
+ 	<br><br>
+</div>
+<script type="text/javascript">
+	let cart = document.getElementById('cart');
+	let purchase= document.getElementById('purchase')
+	cart.onclick=()=>{
+	sessionStorage.setItem("value", "3");
+	let valuen sessionStorage.getItem("value");
+		let cartValue=document.getElementById('cartValue').innerHTML=valuen;
+	}
+</script>
+</body>
+</html>
